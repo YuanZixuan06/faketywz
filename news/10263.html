@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻通知 - 太原市第五中学校</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* 顶部i惠园样式栏 */
+        .top-bar {
+            background-color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+            position: relative;
+            border-bottom: 1px solid #eee;
+        }
+
+        .top-bar .close {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 28px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .top-bar .more {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .top-bar .logo-title {
+            font-size: 20px;
+            font-weight: 500;
+            color: #333;
+        }
+
+        .top-bar .logo-sub {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* 蓝色logo栏 */
+        .logo-bar {
+            background-color: #1976d2;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo-bar img {
+            height: 50px;
+        }
+
+        /* 信息详情标题 */
+        .info-title {
+            background-color: #fff;
+            padding: 20px;
+            font-size: 22px;
+            font-weight: 500;
+            color: #333;
+            border-bottom: 1px solid #eee;
+        }
+
+        /* 内容容器 */
+        .container {
+            background-color: #fff;
+            padding: 30px 20px;
+            margin-top: 10px;
+        }
+
+        /* 通知主标题 */
+        .notice-title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        /* 标题下方小字（完全对标样式） */
+        .notice-meta {
+            text-align: center;
+            font-size: 16px;
+            color: #999;
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        /* 正文段落 */
+        .content p {
+            font-size: 17px;
+            margin-bottom: 18px;
+            text-align: justify;
+            color: #333;
+        }
+
+        /* 条目标题 */
+        .section-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin: 25px 0 12px;
+            color: #222;
+        }
+
+        /* 列表 */
+        .content ul {
+            margin-left: 25px;
+            margin-bottom: 18px;
+        }
+
+        .content li {
+            margin-bottom: 12px;
+            font-size: 17px;
+            color: #333;
+        }
+
+        /* 落款 */
+        .footer-info {
+            text-align: left;
+            margin-top: 50px;
+            font-size: 17px;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        /* 响应式适配 */
+        @media (max-width: 768px) {
+            .notice-title {
+                font-size: 24px;
+            }
+            .notice-meta {
+                font-size: 15px;
+            }
+            .content p, .content li, .footer-info {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 顶部导航栏（完全对标i惠园样式） -->
+    <div class="top-bar">
+        <a href="#" class="close">×</a>
+        <div class="logo-title">i五中</div>
+        <div class="logo-sub">i.tywz.fun</div>
+        <a href="#" class="more">⋯</a>
+    </div>
+
+    <!-- 蓝色logo栏 -->
+    <div class="logo-bar">
+        <!-- 这里用文字替代logo，可替换为真实图片 -->
+        <span style="color: white; font-size: 30px; font-weight: bold;">i五中</span>
+        <span style="color: #eee; font-size: 16px;">i.tywz.fun</span>
+    </div>
+
+    <!-- 信息详情标题 -->
+    <div class="info-title">信息详情</div>
+
+    <!-- 通知内容 -->
+    <div class="container">
+        <div class="notice-title">太原市第五中学校关于 2026 年春假安排的通知</div>
+
+        <!-- 标题下方小字（完全对标样式，写死内容） -->
+        <div class="notice-meta">
+            通知类型：学生管理 &nbsp;&nbsp;&nbsp;&nbsp; 来源：教务处<br>
+            发布时间：2026-04-01 11:45:14 &nbsp;&nbsp;&nbsp;&nbsp; 访问量：233
+        </div>
+
+        <div class="content">
+            <p>各年级、各教研组、全体师生：</p>
+            <p>为合理安排教学进度，丰富师生课余生活，结合我校校历及教育教学工作实际，经学校研究决定，现将 2026 年春假安排通知如下：</p>
+
+            <div class="section-title">一、放假时间</div>
+            <ul>
+                <li>高一、高二年级：2026 年 4 月 7 日（星期一）至 4 月 13 日（星期日）放假，共 7 天</li>
+                <li>高三年级：2026 年 4 月 7 日（星期一）至 4 月 10 日（星期四）放假，共 4 天，4 月 11 日（星期五）起正常返校上课</li>
+            </ul>
+
+            <div class="section-title">二、教学安排</div>
+            <p>春假期间暂停高一、高二所有课程教学及线下考试，相关补课及教学调整安排另行通知。各年级组、各教研组做好假期教学衔接工作，保障后续教学有序推进。高三年级按既定教学安排，假期后正常开展教学与备考工作。</p>
+
+            <div class="section-title">三、有关要求</div>
+            <ul>
+                <li>各部门妥善安排假期值班，严格落实安全工作责任制，做好校园防火防盗、实验室、学生宿舍及重点区域安全管理，筑牢校园安全防线。</li>
+                <li>全体师生员工合理安排出行，注意人身、交通及财产安全，遵守法律法规和公序良俗，度过一个安全、文明、充实的假期。</li>
+                <li>后勤、保卫、图书馆等服务保障部门，按假期工作标准做好服务保障，确保校园各项工作平稳运行。</li>
+                <li>遇突发事件或紧急情况，须按规定及时处置并上报学校。</li>
+            </ul>
+
+            <div class="section-title">四、返校安排</div>
+            <ul>
+                <li>高一、高二年级全体师生员工于 4 月 14 日（星期一）正常返校上班、上课</li>
+                <li>高三年级全体师生员工于 4 月 11 日（星期五）正常返校上班、上课</li>
+            </ul>
+
+            <p>特此通知。</p>
+
+            <div class="footer-info">
+                太原市第五中学校教务处<br>
+                2026 年 4 月 1 日
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
